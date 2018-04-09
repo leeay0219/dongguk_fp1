@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class ShowByteBits {
     public static void main(String...args) {
         Scanner sc = new Scanner (System.in);
-        System.out.println("Input number");
         byte bv = sc.nextByte();
         System.out.printf("%d", (bv & 0x80) >> 7);
         System.out.printf("%d", (bv & 0x40) >> 6);
