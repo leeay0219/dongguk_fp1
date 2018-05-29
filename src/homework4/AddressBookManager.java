@@ -39,10 +39,6 @@ public class AddressBookManager {
     }
 
     public AddressBook findByName(String name) {
-        do {
-            books.get(name);
-        } while ("name".equals(name));
-
         return books.get(name);
     }
 
